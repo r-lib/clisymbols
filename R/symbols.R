@@ -20,7 +20,9 @@
 #' cat(paste(format(names(symbol), width=20),
 #'   unlist(symbol)), sep = "\n")
 
-symbol <- list(
+symbol <- list()
+
+symbol_utf8 <- list(
   "check" = '\u2714',
   "cross" = '\u2716',
   "star" = '\u2605',
@@ -99,6 +101,9 @@ symbol_win <- list(
 .onLoad <- function(libname, pkgname) {
   if (.Platform$OS.type == "windows") {
     symbol <<- symbol_win
+  } else {
+    symbol <<- symbol_utf8
   }
+
   invisible()
 }
