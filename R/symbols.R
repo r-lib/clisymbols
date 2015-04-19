@@ -98,11 +98,103 @@ symbol_win <- list(
   "checkbox_circle_off" = '( )'
 )
 
+symbol_win_rstudio <- list(
+  "check" = '\u2714',
+  "cross" = '\u2716',
+  "star" = '\u2605',
+  "block" = '\u2587',
+  "white_square" = '[ ]',
+  "black_square" = '[\u2588]',
+  "circle" = '\u25EF',
+  "fisheye" = '(\x95)',
+  "dotted_circle" = '\u25CC',
+  "bullseye" = '(o)',
+  "circled_o" = '\u24DE',
+  "circled_x" = '\u24E7',
+  "circled_I" = '\u24be',
+  "circled_?" = '(?)',
+  "black_circle" = '\u25CF',
+  "dot" = '.',
+  "line" = '\u2500',
+  "ellipsis" = '\u2026',
+  "pointer" = '>',
+  "info" = 'i',
+  "warning" = '\u203C',
+  "menu" = '\u2630',
+  "smiley" = '\u263A',
+  "mustache" = '\u0DF4',
+  "heart" = '\u2665',
+  "arrow_up" = '\u2191',
+  "arrow_down" = '\u2193',
+  "arrow_left" = '\u2190',
+  "arrow_right" = '\u2192',
+  "radio_on" = '(\x95)',
+  "radio_off" = '( )',
+  "checkbox_on" = '\u2612',
+  "checkbox_off" = '\u2610',
+  "checkbox_circle_on" = '\u24E7',
+  "checkbox_circle_off" = '\u24BE'
+)
+
+symbol_win_rgui <- list(
+  "check" = '\u2714',
+  "cross" = '\u2716',
+  "star" = '\u2605',
+  "block" = '\u2588',
+  "white_square" = '[ ]',
+  "black_square" = '[\u2588]',
+  "circle" = '\u25EF',
+  "fisheye" = '(\x95)',
+  "dotted_circle" = '(\x95)',
+  "bullseye" = '(o)',
+  "circled_o" = '(o)',
+  "circled_x" = '(x)',
+  "circled_I" = '(|)',
+  "circled_?" = '(?)',
+  "black_circle" = '\u25CF',
+  "dot" = '.',
+  "line" = '\u2500',
+  "ellipsis" = '\u2026',
+  "pointer" = '>',
+  "info" = 'i',
+  "warning" = '\u203C',
+  "menu" = '\u2630',
+  "smiley" = '\u263A',
+  "mustache" = '\u0DF4',
+  "heart" = '\u2665',
+  "arrow_up" = '\u2191',
+  "arrow_down" = '\u2193',
+  "arrow_left" = '\u2190',
+  "arrow_right" = '\u2192',
+  "radio_on" = '(\x95)',
+  "radio_off" = '( )',
+  "checkbox_on" = '[x]',
+  "checkbox_off" = '[ ]',
+  "checkbox_circle_on" = '(x)',
+  "checkbox_circle_off" = '( )'
+)
+
+is_windows <- function() {
+  .Platform$OS.type == "windows"
+}
+
+is_r_studio <- function() {
+  Sys.getenv("RSTUDIO") == 1
+}
+
+is_rgui <- function() {
+  .Platform$GUI[1] == "Rgui"
+}
+
 .onLoad <- function(libname, pkgname) {
-  if (.Platform$OS.type == "windows") {
-    symbol <<- symbol_win
-  } else {
+  if (is_windows() && is_rgui()) {
+    symbol <<- symbol_win_rgui
+  } else if (is_windows() && is_r_studio()) {
+    symbol <<- symbol_win_rstudio
+  } else if (grepl("UTF-8", Sys.getenv("LANG"))) {
     symbol <<- symbol_utf8
+  } else {
+    symbol <<- symbol_win
   }
 
   invisible()
