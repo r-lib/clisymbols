@@ -21,11 +21,11 @@ devtools::install_github("gaborcsardi/prettysymbols")
 
 ```r
 library(prettysymbols)
-cat(symbol$check, "All good\n")
+cat(symbol$tick, "All good\n")
 ```
 
 ```
-#>  All good
+#> ✔ All good
 ```
 
 ```r
