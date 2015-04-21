@@ -8,6 +8,9 @@
 
 ![](screenshot.png)
 
+Inspired by (and mostly copied from) the
+[figures](https://github.com/sindresorhus/figures) JavaScript project.
+
 ## Install
 
 
