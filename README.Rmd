@@ -32,7 +32,7 @@ Here is a list of all symbols, with their names:
 
 ```{r}
 for (i in seq_along(symbol)) {
-  cat(symbol[[i]], "\t", names(symbol)[i], "\n")
+  cat(symbol[[i]], "\t", names(symbol)[i], "\n", sep = "")
 }
 ```
 
@@ -44,7 +44,7 @@ ASCII substitutes are used:
 ```{r echo = FALSE}
 for (i in seq_along(prettysymbols:::symbol_win)) {
   cat(prettysymbols:::symbol_win[[i]], "\t",
-    names(prettysymbols:::symbol_win)[i], "\n")
+    names(prettysymbols:::symbol_win)[i], "\n", sep = "")
 }
 ```
 
