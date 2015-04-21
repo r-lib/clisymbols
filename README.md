@@ -93,41 +93,41 @@ ASCII substitutes are used:
 
 
 ```
-#> √	tick
-#> x	cross
-#> *	star
-#> █	square
-#> [ ]	square_small
-#> [█]	square_small_filled
-#> ( )	circle
-#> (*)	circle_filled
-#> ( )	circle_dotted
-#> (o)	circle_double
-#> (o)	circle_circle
-#> (x)	circle_cross
-#> (|)	circle_pipe
-#> (?)	circle_question_mark
-#> *	bullet
-#> .	dot
-#> ─	line
-#> ...	ellipsis
-#> >	pointer
-#> i	info
-#> ‼	warning
-#> ≡	menu
-#> ☺	smiley
-#> ┌─┐	mustache
-#> 	heart
-#> ^	arrow_up
-#> v	arrow_down
-#> <	arrow_left
-#> >	arrow_right
-#> (*)	radio_on
-#> ( )	radio_off
-#> [x]	checkbox_on
-#> [ ]	checkbox_off
-#> (x)	checkbox_circle_on
-#> ( )	checkbox_circle_off
+#> √   tick
+#> x   cross
+#> *   star
+#> █   square
+#> [ ] square_small
+#> [█] square_small_filled
+#> ( ) circle
+#> (*) circle_filled
+#> ( ) circle_dotted
+#> (o) circle_double
+#> (o) circle_circle
+#> (x) circle_cross
+#> (|) circle_pipe
+#> (?) circle_question_mark
+#> *   bullet
+#> .   dot
+#> ─   line
+#> ... ellipsis
+#> >   pointer
+#> i   info
+#> ‼   warning
+#> ≡   menu
+#> ☺   smiley
+#> ┌─┐ mustache
+#> NULLheart
+#> ^   arrow_up
+#> v   arrow_down
+#> <   arrow_left
+#> >   arrow_right
+#> (*) radio_on
+#> ( ) radio_off
+#> [x] checkbox_on
+#> [ ] checkbox_off
+#> (x) checkbox_circle_on
+#> ( ) checkbox_circle_off
 ```
 
 # License

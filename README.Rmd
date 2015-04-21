@@ -46,7 +46,7 @@ ASCII substitutes are used:
 
 ```{r echo = FALSE}
 for (i in seq_along(prettysymbols:::symbol_win)) {
-  cat(prettysymbols:::symbol_win[[i]], "\t",
+  cat(format(prettysymbols:::symbol_win[[i]], width = 4),
     names(prettysymbols:::symbol_win)[i], "\n", sep = "")
 }
 ```
