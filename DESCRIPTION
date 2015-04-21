@@ -10,3 +10,4 @@ Description: Pretty unicode symbols, with fallbacks on terminals that do not
 License: MIT + file LICENSE
 URL: https://github.com/gaborcsardi/prettysymbols
 BugReports: https://github.com/gaborcsardi/prettysymbols/issues
+Suggests: testthat
