@@ -4,8 +4,8 @@
 
 # prettysymbols
 
-[![Linux Build Status](https://travis-ci.org/gaborcsardi/prettysymbols.png?branch=master)](https://travis-ci.org/gaborcsardi/prettysymbols)
-[![Windows Build status](https://ci.appveyor.com/api/projects/status/e5gj6n5sbq668e9y)](https://ci.appveyor.com/project/gaborcsardi/prettysymbols)
+[![Linux Build Status](https://travis-ci.org/gaborcsardi/prettysymbols.svg?branch=master)](https://travis-ci.org/gaborcsardi/prettysymbols)
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/github/gaborcsardi/prettysymbols?svg=true)](https://ci.appveyor.com/project/gaborcsardi/prettysymbols)
 
 
 > Unicode symbols with Windows fallbacks
