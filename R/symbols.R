@@ -57,7 +57,8 @@ symbol_utf8 <- list(
   "checkbox_on" = '\u2612',
   "checkbox_off" = '\u2610',
   "checkbox_circle_on" = '\u24E7',
-  "checkbox_circle_off" = '\u24BE'
+  "checkbox_circle_off" = '\u24BE',
+  "fancy_question_mark" = '\u2753'
 )
 
 symbol_win <- list(
@@ -95,7 +96,8 @@ symbol_win <- list(
   "checkbox_on" = '[x]',
   "checkbox_off" = '[ ]',
   "checkbox_circle_on" = '(x)',
-  "checkbox_circle_off" = '( )'
+  "checkbox_circle_off" = '( )',
+  "fancy_question_mark" = "(?)"
 )
 
 symbol_win_rstudio <- list(
@@ -133,7 +135,8 @@ symbol_win_rstudio <- list(
   "checkbox_on" = '\u2612',
   "checkbox_off" = '\u2610',
   "checkbox_circle_on" = '\u24E7',
-  "checkbox_circle_off" = '\u24BE'
+  "checkbox_circle_off" = '\u24BE',
+  "fancy_question_mark" = '(?)'
 )
 
 symbol_win_rgui <- list(
@@ -171,7 +174,8 @@ symbol_win_rgui <- list(
   "checkbox_on" = '[x]',
   "checkbox_off" = '[ ]',
   "checkbox_circle_on" = '(x)',
-  "checkbox_circle_off" = '( )'
+  "checkbox_circle_off" = '( )',
+  "fancy_question_mark" = '(?)'
 )
 
 is_windows <- function() {

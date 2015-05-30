@@ -88,6 +88,7 @@ for (i in seq_along(symbol)) {
 #> ☐	checkbox_off
 #> ⓧ	checkbox_circle_on
 #> Ⓘ	checkbox_circle_off
+#> ❓	fancy_question_mark
 ```
 
 ### Fallback symbols
@@ -132,6 +133,7 @@ ASCII substitutes are used:
 #> [ ] checkbox_off
 #> (x) checkbox_circle_on
 #> ( ) checkbox_circle_off
+#> (?) fancy_question_mark
 ```
 
 # License
