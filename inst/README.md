@@ -6,6 +6,8 @@
 
 [![Linux Build Status](https://travis-ci.org/gaborcsardi/prettysymbols.svg?branch=master)](https://travis-ci.org/gaborcsardi/prettysymbols)
 [![Windows Build status](https://ci.appveyor.com/api/projects/status/github/gaborcsardi/prettysymbols?svg=true)](https://ci.appveyor.com/project/gaborcsardi/prettysymbols)
+[![](http://www.r-pkg.org/badges/version/prettysymbols)](http://www.r-pkg.org/pkg/prettysymbols)
+[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/prettysymbols)](http://www.r-pkg.org/pkg/prettysymbols)
 
 
 > Unicode symbols with Windows fallbacks
