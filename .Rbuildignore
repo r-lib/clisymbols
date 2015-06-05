@@ -1,5 +1,7 @@
 ^tags$
 ^README.md$
+^README.Rmd$
+^NEWS.md$
 ^Makefile$
 ^.travis.yml$
 ^appveyor.yml$
