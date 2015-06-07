@@ -2,12 +2,12 @@
 
 
 
-# prettysymbols
+# unicodecli
 
-[![Linux Build Status](https://travis-ci.org/gaborcsardi/prettysymbols.svg?branch=master)](https://travis-ci.org/gaborcsardi/prettysymbols)
-[![Windows Build status](https://ci.appveyor.com/api/projects/status/github/gaborcsardi/prettysymbols?svg=true)](https://ci.appveyor.com/project/gaborcsardi/prettysymbols)
-[![](http://www.r-pkg.org/badges/version/prettysymbols)](http://www.r-pkg.org/pkg/prettysymbols)
-[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/prettysymbols)](http://www.r-pkg.org/pkg/prettysymbols)
+[![Linux Build Status](https://travis-ci.org/gaborcsardi/unicodecli.svg?branch=master)](https://travis-ci.org/gaborcsardi/unicodecli)
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/github/gaborcsardi/unicodecli?svg=true)](https://ci.appveyor.com/project/gaborcsardi/unicodecli)
+[![](http://www.r-pkg.org/badges/version/unicodecli)](http://www.r-pkg.org/pkg/unicodecli)
+[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/unicodecli)](http://www.r-pkg.org/pkg/unicodecli)
 
 
 > Unicode symbols with Windows fallbacks
@@ -22,14 +22,14 @@ Inspired by (and mostly copied from) the
 
 ```r
 install.packages("devtools")
-devtools::install_github("gaborcsardi/prettysymbols")
+devtools::install_github("gaborcsardi/unicodecli")
 ```
 
 ## Usage
 
 
 ```r
-library(prettysymbols)
+library(unicodecli)
 cat(symbol$tick, "All good\n")
 ```
 

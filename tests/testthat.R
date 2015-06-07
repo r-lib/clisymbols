@@ -1,4 +1,4 @@
 library(testthat)
-library(prettysymbols)
+library(unicodecli)
 
-test_check("prettysymbols")
+test_check("unicodecli")

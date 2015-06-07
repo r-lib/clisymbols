@@ -1,13 +1,15 @@
-Package: prettysymbols
-Title: Pretty Unicode Symbols at the R Prompt
+Package: unicodecli
+Title: Unicode Symbols at the R Prompt
 Version: 1.0.0
 Authors@R: c(
     person("Gabor", "Csardi", , "csardi.gabor@gmail.com", role = c("aut", "cre")),
     person("Sindre", "Sorhus", role = "aut")
     )
-Description: Pretty unicode symbols, with fallbacks on terminals that do not
-    support them. Many symbols were taken from the figures NPM package.
+Description: A small subset of unicode symbols, that are useful
+    when building command line applications. They fall back to
+    alternatives on terminals that do not support Unicode.
+    Many symbols were taken from the 'figures' 'npm' package.
 License: MIT + file LICENSE
-URL: https://github.com/gaborcsardi/prettysymbols
-BugReports: https://github.com/gaborcsardi/prettysymbols/issues
+URL: https://github.com/gaborcsardi/unicodecli
+BugReports: https://github.com/gaborcsardi/unicodecli/issues
 Suggests: testthat
