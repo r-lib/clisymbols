@@ -5,7 +5,7 @@ Authors@R: c(
     person("Gabor", "Csardi", , "csardi.gabor@gmail.com", role = c("aut", "cre")),
     person("Sindre", "Sorhus", role = "aut")
     )
-Description: A small subset of unicode symbols, that are useful
+Description: A small subset of Unicode symbols, that are useful
     when building command line applications. They fall back to
     alternatives on terminals that do not support Unicode.
     Many symbols were taken from the 'figures' 'npm' package.
