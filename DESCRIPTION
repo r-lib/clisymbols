@@ -1,4 +1,4 @@
-Package: unicodecli
+Package: clisymbols
 Title: Unicode Symbols at the R Prompt
 Version: 1.0.0
 Authors@R: c(
@@ -10,6 +10,6 @@ Description: A small subset of Unicode symbols, that are useful
     alternatives on terminals that do not support Unicode.
     Many symbols were taken from the 'figures' 'npm' package.
 License: MIT + file LICENSE
-URL: https://github.com/gaborcsardi/unicodecli
-BugReports: https://github.com/gaborcsardi/unicodecli/issues
+URL: https://github.com/gaborcsardi/clisymbols
+BugReports: https://github.com/gaborcsardi/clisymbols/issues
 Suggests: testthat

@@ -2,12 +2,12 @@
 
 
 
-# unicodecli
+# clisymbols
 
-[![Linux Build Status](https://travis-ci.org/gaborcsardi/unicodecli.svg?branch=master)](https://travis-ci.org/gaborcsardi/unicodecli)
-[![Windows Build status](https://ci.appveyor.com/api/projects/status/github/gaborcsardi/unicodecli?svg=true)](https://ci.appveyor.com/project/gaborcsardi/unicodecli)
-[![](http://www.r-pkg.org/badges/version/unicodecli)](http://www.r-pkg.org/pkg/unicodecli)
-[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/unicodecli)](http://www.r-pkg.org/pkg/unicodecli)
+[![Linux Build Status](https://travis-ci.org/gaborcsardi/clisymbols.svg?branch=master)](https://travis-ci.org/gaborcsardi/clisymbols)
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/github/gaborcsardi/clisymbols?svg=true)](https://ci.appveyor.com/project/gaborcsardi/clisymbols)
+[![](http://www.r-pkg.org/badges/version/clisymbols)](http://www.r-pkg.org/pkg/clisymbols)
+[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/clisymbols)](http://www.r-pkg.org/pkg/clisymbols)
 
 
 > Unicode symbols with Windows fallbacks
@@ -22,14 +22,14 @@ Inspired by (and mostly copied from) the
 
 ```r
 install.packages("devtools")
-devtools::install_github("gaborcsardi/unicodecli")
+devtools::install_github("gaborcsardi/clisymbols")
 ```
 
 ## Usage
 
 
 ```r
-library(unicodecli)
+library(clisymbols)
 cat(symbol$tick, "All good\n")
 ```
 

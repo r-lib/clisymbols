@@ -1,4 +1,4 @@
 library(testthat)
-library(unicodecli)
+library(clisymbols)
 
-test_check("unicodecli")
+test_check("clisymbols")
