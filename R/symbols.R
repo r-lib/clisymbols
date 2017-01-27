@@ -86,7 +86,7 @@ symbol_win <- list(
   "menu" = '\u2261',
   "smiley" = '\u263A',
   "mustache" = '\u250C\u2500\u2510',
-  "heart" = symbol$heart,
+  "heart" = '\u2665',
   "arrow_up" = '^',
   "arrow_down" = 'v',
   "arrow_left" = '<',
