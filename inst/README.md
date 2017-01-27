@@ -91,6 +91,9 @@ for (i in seq_along(symbol)) {
 #> ⓧ	checkbox_circle_on
 #> Ⓘ	checkbox_circle_off
 #> ❓	fancy_question_mark
+#> ≠	neq
+#> ≥	geq
+#> ≤	leq
 ```
 
 ### Fallback symbols
@@ -124,7 +127,7 @@ ASCII substitutes are used:
 #> ≡   menu
 #> ☺   smiley
 #> ┌─┐ mustache
-#> NULLheart
+#> ♥   heart
 #> ^   arrow_up
 #> v   arrow_down
 #> <   arrow_left
@@ -136,6 +139,9 @@ ASCII substitutes are used:
 #> (x) checkbox_circle_on
 #> ( ) checkbox_circle_off
 #> (?) fancy_question_mark
+#> !=  neq
+#> >=  geq
+#> <=  leq
 ```
 
 # License
