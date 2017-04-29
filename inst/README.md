@@ -72,6 +72,7 @@ for (i in seq_along(symbol)) {
 #> ●	bullet
 #> ․	dot
 #> ─	line
+#> ═	double_line
 #> …	ellipsis
 #> ❯	pointer
 #> ℹ	info
@@ -120,6 +121,7 @@ ASCII substitutes are used:
 #> *   bullet
 #> .   dot
 #> ─   line
+#> =   double_line
 #> ... ellipsis
 #> >   pointer
 #> i   info
