@@ -211,7 +211,7 @@ is_rgui <- function() {
     symbol <<- symbol_win_rgui
   } else if (is_windows() && is_r_studio()) {
     symbol <<- symbol_win_rstudio
-  } else if (grepl("UTF-8", Sys.getenv("LANG"))) {
+  } else if (l10n_info()$`UTF-8`) {
     symbol <<- symbol_utf8
   } else {
     symbol <<- symbol_win
