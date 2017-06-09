@@ -95,6 +95,7 @@ for (i in seq_along(symbol)) {
 #> ≠	neq
 #> ≥	geq
 #> ≤	leq
+#> ×	times
 #> ▔	upper_block_1
 #> ▀	upper_block_4
 #> ▁	lower_block_1
@@ -155,6 +156,7 @@ ASCII substitutes are used:
 #> !=  neq
 #> >=  geq
 #> <=  leq
+#> x   times
 #> ^   upper_block_1
 #> ^   upper_block_4
 #> .   lower_block_1

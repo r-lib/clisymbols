@@ -63,6 +63,7 @@ symbol_utf8 <- list(
   "neq" = "\u2260",
   "geq" = "\u2265",
   "leq" = "\u2264",
+  "times" = "\u00d7",
 
   "upper_block_1" = "\u2594",
   "upper_block_4" = "\u2580",
@@ -120,6 +121,7 @@ symbol_win <- list(
   "neq" = "!=",
   "geq" = ">=",
   "leq" = "<=",
+  "times" = "x",
 
   "upper_block_1" = "^",
   "upper_block_4" = "^",
@@ -177,6 +179,7 @@ symbol_win_rstudio <- list(
   "neq" = "!=",
   "geq" = ">=",
   "leq" = "<=",
+  "times" = "\u00d7",
 
   "upper_block_1" = "\u2594",
   "upper_block_4" = "\u2580",
@@ -234,6 +237,7 @@ symbol_win_rgui <- list(
   "neq" = "!=",
   "geq" = ">=",
   "leq" = "<=",
+  "times" = "\u00d7",
 
   "upper_block_1" = "^",
   "upper_block_4" = "\u2580",
