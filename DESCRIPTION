@@ -11,7 +11,7 @@ Description: A small subset of Unicode symbols, that are useful
     Many symbols were taken from the 'figures' 'npm' package
     (see <https://github.com/sindresorhus/figures>).
 License: MIT + file LICENSE
-URL: https://github.com/gaborcsardi/clisymbols
-BugReports: https://github.com/gaborcsardi/clisymbols/issues
+URL: https://github.com/r-lib/clisymbols#readme
+BugReports: https://github.com/r-lib/clisymbols/issues
 Suggests: testthat
 Encoding: UTF-8
