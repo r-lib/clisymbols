@@ -25,8 +25,7 @@ Inspired by (and mostly copied from) the
 ## Install
 
 ```{r eval = FALSE}
-install.packages("devtools")
-devtools::install_github("r-lib/clisymbols")
+install.packages("clisymbols")
 ```
 
 ## Usage

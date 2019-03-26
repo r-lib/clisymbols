@@ -21,8 +21,7 @@ Inspired by (and mostly copied from) the
 
 
 ```r
-install.packages("devtools")
-devtools::install_github("r-lib/clisymbols")
+install.packages("clisymbols")
 ```
 
 ## Usage
