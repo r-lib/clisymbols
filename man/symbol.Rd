@@ -15,11 +15,10 @@ Various handy symbols to use in a command line UI
 On Windows they have a fallback to less fancy symbols.
 }
 \examples{
-cat(symbol$check, " SUCCESS\\n", symbol$cross, " FAILURE\\n", sep="")
+cat(symbol$tick, " SUCCESS\\n", symbol$cross, " FAILURE\\n", sep = "")
 
 ## All symbols
-cat(paste(format(names(symbol), width=20),
-  unlist(symbol)), sep = "\\n")
+cat(paste(format(names(symbol), width = 20), unlist(symbol)), sep = "\\n")
 }
 \keyword{datasets}
 
