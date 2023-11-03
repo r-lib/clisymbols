@@ -24,5 +24,10 @@ Authors:
   \item Sindre Sorhus
 }
 
+Other contributors:
+\itemize{
+  \item Posit Software, PBC [copyright holder, funder]
+}
+
 }
 \keyword{internal}
