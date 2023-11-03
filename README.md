@@ -12,7 +12,7 @@
 
 > Unicode symbols with Windows fallbacks
 
-![](/inst/screenshot.png)
+![](/screenshot.png)
 
 Inspired by (and mostly copied from) the
 [figures](https://github.com/sindresorhus/figures) JavaScript project.

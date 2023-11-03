@@ -1,7 +1,7 @@
 
 all: README.markdown
 
-README.markdown: README.Rmd
+README.md: README.Rmd
 	Rscript -e "library(knitr); knit('$<', output = '$@', quiet = TRUE)"
 
 
