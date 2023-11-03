@@ -4,10 +4,10 @@
 
 # clisymbols
 
-[![Linux Build Status](https://travis-ci.org/r-lib/clisymbols.svg?branch=master)](https://travis-ci.org/r-lib/clisymbols)
+[![Linux Build Status](https://travis-ci.org/r-lib/clisymbols.svg?branch=master)](https://app.travis-ci.com/r-lib/clisymbols)
 [![Windows Build status](https://ci.appveyor.com/api/projects/status/github/r-lib/clisymbols?svg=true)](https://ci.appveyor.com/project/gaborcsardi/clisymbols)
-[![](http://www.r-pkg.org/badges/version/clisymbols)](http://www.r-pkg.org/pkg/clisymbols)
-[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/clisymbols)](http://www.r-pkg.org/pkg/clisymbols)
+[![](https://www.r-pkg.org/badges/version/clisymbols)](https://www.r-pkg.org/pkg/clisymbols)
+[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/clisymbols)](https://www.r-pkg.org/pkg/clisymbols)
 
 
 > Unicode symbols with Windows fallbacks
@@ -94,7 +94,6 @@ for (i in seq_along(symbol)) {
 #> ≠	neq
 #> ≥	geq
 #> ≤	leq
-#> ×	times
 #> ▔	upper_block_1
 #> ▀	upper_block_4
 #> ▁	lower_block_1
@@ -155,7 +154,6 @@ ASCII substitutes are used:
 #> !=  neq
 #> >=  geq
 #> <=  leq
-#> x   times
 #> ^   upper_block_1
 #> ^   upper_block_4
 #> .   lower_block_1
@@ -171,4 +169,4 @@ ASCII substitutes are used:
 
 # License
 
-MIT © [Gabor Csardi](http://gaborcsardi.org) and [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Gabor Csardi](https://gaborcsardi.org) and [Sindre Sorhus](https://sindresorhus.com)
