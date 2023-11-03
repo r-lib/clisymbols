@@ -21,9 +21,18 @@ Inspired by (and mostly copied from) the
 
 ## Install
 
+Stable version:
+
 
 ```r
 install.packages("clisymbols")
+```
+
+Development version:
+
+
+```r
+pak::pak("r-lib/clisymbols")
 ```
 
 ## Usage
