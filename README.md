@@ -5,8 +5,7 @@
 # clisymbols
 
 <!-- badges: start -->
-[![Linux Build Status](https://travis-ci.org/r-lib/clisymbols.svg?branch=main)](https://app.travis-ci.com/r-lib/clisymbols)
-[![Windows Build status](https://ci.appveyor.com/api/projects/status/github/r-lib/clisymbols?svg=true)](https://ci.appveyor.com/project/gaborcsardi/clisymbols)
+[![R-CMD-check](https://github.com/r-lib/clisymbols/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/r-lib/clisymbols/actions/workflows/R-CMD-check.yaml)
 [![](https://www.r-pkg.org/badges/version/clisymbols)](https://www.r-pkg.org/pkg/clisymbols)
 [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/clisymbols)](https://www.r-pkg.org/pkg/clisymbols)
 [![Codecov test coverage](https://codecov.io/gh/r-lib/clisymbols/branch/main/graph/badge.svg)](https://app.codecov.io/gh/r-lib/clisymbols?branch=main)

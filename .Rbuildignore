@@ -5,3 +5,4 @@
 ^appveyor.yml$
 ^\.github$
 ^LICENSE\.md$
+^codecov\.yml$
