@@ -5,17 +5,18 @@ Authors@R: c(
     person("Gábor", "Csárdi", , "csardi.gabor@gmail.com", role = c("aut", "cre")),
     person("Sindre", "Sorhus", role = "aut"),
     person("Posit Software, PBC", role = c("cph", "fnd"))
-    )
-Description: A small subset of Unicode symbols, that are useful
-    when building command line applications. They fall back to
-    alternatives on terminals that do not support Unicode.
-    Many symbols were taken from the 'figures' 'npm' package
-    (see <https://github.com/sindresorhus/figures>).
+  )
+Description: A small subset of Unicode symbols, that are useful when
+    building command line applications. They fall back to alternatives on
+    terminals that do not support Unicode.  Many symbols were taken from
+    the 'figures' 'npm' package (see
+    <https://github.com/sindresorhus/figures>).
 License: MIT + file LICENSE
 URL: https://github.com/r-lib/clisymbols#readme
 BugReports: https://github.com/r-lib/clisymbols/issues
-Suggests: testthat
-Encoding: UTF-8
-RoxygenNote: 7.2.3
 Depends: 
     R (>= 3.6)
+Suggests: 
+    testthat
+Encoding: UTF-8
+RoxygenNote: 7.2.3
